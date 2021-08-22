@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Take input from user</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'input.css' %}">
+</head>
+<body>
+    <div class="takeinput">
+        <form action="enternumber">
+            <h2 class="intro">Enter the number till which the numbers are required to be printed!</h2>
+            <br>
+            <h3 class="intro2">Enter positive number : <input type="text" name="number"></h3>
+            <br>
+            <input type="submit">
+        </form>
+    </div>
+</body>
+</html>

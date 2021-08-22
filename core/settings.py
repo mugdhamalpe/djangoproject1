@@ -33,6 +33,7 @@ STATICFILES_DIRS = [
 # Application definition
 
 INSTALLED_APPS = [
+    'printnumbers.apps.PrintnumbersConfig',
     'myapp.apps.MyappConfig',
     'django.contrib.admin',
     'django.contrib.auth',
